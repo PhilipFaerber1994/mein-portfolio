@@ -1,0 +1,135 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav{
+    margin-top: 0;
+    position: fixed;
+}
+
+hr{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #426FB3;
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Courier Prime', monospace;
+    color: #426FB3;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-top: 20px;
+}
+
+table tr td {
+    /* padding-left: 40px; */
+    padding-right: 60px;
+}
+
+
+.navbar{
+    background-color: #77AEFF;
+    overflow: hidden;
+    top: 0;
+
+}
+
+.navbar-custom{
+    position: fixed;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: white;
+}
+
+.container-fluid{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .nav-link{
+    font-weight: 900;
+} */
+
+.nav-item:hover{
+    border-color: white;
+    /* border: 3px solid white; */
+    box-shadow:  0 0 0 3px white;
+}
+
+.nav-link{
+    font-family: 'Courier Prime', monospace;
+    font-weight: bolder;
+    display: block;
+    color: white;
+    margin: auto 50px;
+    font-size: large;
+    
+}
+
+.nav-link:hover{
+    color: white;  
+}  
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+.distance-to-header{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.bi{
+    color: #426FB3;
+}
+
+.header{
+    margin-top: 60px;
+}
+
+#about-me{
+    text-align: justify;
+}
+
+#linkedin-icon{
+    margin-left: 100px;
+}
+
+#moi-img{
+    margin-left: 70px;
+}
+
+#to-top{
+    margin-top: 50px;
+    margin-right: 30px;
+    position: fixed;
+    right: 15px;
+    color: #426FB3;
+    padding: 5px;
+}
+
+#to-top:hover{
+    border-radius: 10px;
+    background-color: white;
+    /* border: 3px solid #426FB3; */
+    box-shadow:  0 0 0 3px #426FB3;
+}
