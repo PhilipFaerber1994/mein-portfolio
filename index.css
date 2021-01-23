@@ -40,6 +40,10 @@ table tr td {
 
 }
 
+.navbar-nav{
+    color:white;
+}
+
 .navbar-custom{
     position: fixed;
 }
@@ -63,6 +67,10 @@ table tr td {
     font-weight: 900;
 } */
 
+.nav-item{
+    color: white;
+}
+
 .nav-item:hover{
     border-color: white;
     /* border: 3px solid white; */
@@ -77,6 +85,10 @@ table tr td {
     margin: auto 50px;
     font-size: large;
     
+}
+
+.li-span{
+    color: white;
 }
 
 .nav-link:hover{
