@@ -118,6 +118,30 @@ table tr td {
     margin-top: 60px;
 }
 
+.projects-articel{
+    border: 3px solid #426FB3;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 30px;
+
+}
+
+.link-to-github {
+    color: #426FB3;
+
+}
+
+.link-to-github:hover{
+    box-shadow:  0 0 0 3px white;
+    text-decoration: none;
+}
+
+.written-in-label{
+    
+    z-index: 1;
+    
+}
+
 #about-me{
     text-align: justify;
 }
